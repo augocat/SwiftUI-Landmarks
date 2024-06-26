@@ -5,7 +5,7 @@ struct LandmarkList: View {
     NavigationSplitView(sidebar: {
       List(landmarks) { landmark in
         NavigationLink {
-          LandmarkDetail()
+          LandmarkDetail(landmark: landmark)
         } label: {
           LandmarkRow(landmark: landmark)
         }
