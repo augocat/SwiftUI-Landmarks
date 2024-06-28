@@ -1,10 +1,3 @@
-//
-//  RotatedBadgeSymbol.swift
-//  Landmarks
-//
-//  Created by Grahame Narborough on 28/6/2024.
-//
-
 import SwiftUI
 
 struct RotatedBadgeSymbol: View {
