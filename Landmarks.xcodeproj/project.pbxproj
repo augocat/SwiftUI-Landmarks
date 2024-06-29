@@ -173,9 +173,9 @@
 		C9A6A4312C2F70B50090452A /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				C9A6A4362C2F94BB0090452A /* CategoryItem.swift */,
-				C9A6A4342C2F8EE60090452A /* CategoryRow.swift */,
 				C9A6A4322C2F70CB0090452A /* CategoryHome.swift */,
+				C9A6A4342C2F8EE60090452A /* CategoryRow.swift */,
+				C9A6A4362C2F94BB0090452A /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -183,9 +183,9 @@
 		C9B18EC62C2D4380002A0D6D /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				C9607A3A2C2A837A009AB06D /* LandmarkDetail.swift */,
 				C9607A382C2A8070009AB06D /* LandmarkList.swift */,
 				C9607A362C2A61EE009AB06D /* LandmarkRow.swift */,
+				C9607A3A2C2A837A009AB06D /* LandmarkDetail.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
