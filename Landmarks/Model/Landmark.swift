@@ -22,6 +22,9 @@ struct Landmark: Hashable, Codable, Identifiable {
     case rivers = "Rivers"
     case mountains = "Mountains"
   }
+  var featureImage: Image? {
+    isFeatured ? Image(imageName + "_feature") : nil
+  }
 
   private var coordinates: Coordinates
   var locationCoordinate: CLLocationCoordinate2D {
